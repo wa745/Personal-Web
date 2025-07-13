@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins" ;
+}
+body {
+background-color: rgb(68, 79, 113);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    
+}
+.navigation a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+.navigation a:hover{
+
+    color: #00adb5;
+}
+hr{
+    opacity: 10%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+.heroImg{
+     width: 500px;
+    height: auto;
+    transform: translateY(30px);
+    transform: translateX(20px);
+}
+.person{
+    position: absolute;
+    transform: translatex(-5.5rem) translateY(-1.3rem);
+}
+.name{
+    font-size: 4rem;
+    color: rgb(254, 254, 254);
+}
+.title{
+    font-size: 4rem;
+    color: rgb(176, 143, 243);
+}
+.heroBtns{
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem;
+    background-color: rgb(176, 143, 243);
+    color: #eeeeee;
+    border-radius: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+
+
+
+
+.AboutMeImg{
+    
+    width: 400px; 
+    height: auto;
+}
+.aboutName {
+    font-size: 3rem; /* حجم كلمة "About" */
+    color: whitesmoke;
+    margin-right: 10px;
+    margin-top: 80px;
+    text-align: left; /* محاذاة "About" إلى اليسار */
+}
+.aboutTitle {
+    font-size: 3rem; /* حجم كلمة "me" أكبر قليلاً من "About" */
+    color: whitesmoke;
+    margin-top: 80px;
+    text-align: left; /* محاذاة "me" إلى اليسار */
+}
+.aboutText {
+    display: flex;
+    flex-direction: center; 
+    align-items: flex-start;
+}
+.texTitle{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.AboutMePar{
+    text-align: left;
+    color: rgb(176, 143, 243);
+    margin-left: -300px; 
+    font-size: 1.5rem; 
+    margin-top: 80px;
+}
+
+
+.certificates{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3 {
+    width: 1184px;  /* تعديل العرض حسب الحاجة */
+    height: auto;
+}
+
+.img4 {
+    width: 1184px;  /* تعديل العرض حسب الحاجة */
+    height: auto;
+}
+
+.contactContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+.contactTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 20rem;
+}
+.contact h3, contact a{
+    color: aliceblue;
+    text-decoration: none;
+}
